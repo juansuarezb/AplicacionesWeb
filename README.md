@@ -60,3 +60,5 @@ https://ciniguez.github.io/balava/appweb/index.html
 ![image](https://github.com/user-attachments/assets/55700b8d-4c5a-407d-8181-51753d3a1017)
 
 en la fase de analisis no se habla del lenguaje de programacion
+
+que significa ser dirigido por caso de uso.

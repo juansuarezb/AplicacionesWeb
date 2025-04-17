@@ -2,8 +2,6 @@
 
 > [!NOTE]
 > CODIGO: ISWD613
-> ## CLASE 1
-> ## 15/04/2025
 > CARLOS Iñiguez <br>
 > 5 objetivos en la carrera
 

@@ -1,11 +1,41 @@
-# AplicacionesWeb
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Brain.png" alt="Brain" width="100" height="100" />
+  <h1>Aplicaciones Web</h1>
+  <p>
+     <a href="https://github.com/juansuarezb/AplicacionesWeb/stargazers">
+       <img alt="Stars" src="https://img.shields.io/github/stars/juansuarezb/AplicacionesWeb?style=social" />
+      </a>
+      <a href="https://github.com/juansuarezb/AplicacionesWeb/network/members">
+       <img alt="Forks" src="https://img.shields.io/github/forks/juansuarezb/AplicacionesWeb?style=social" />
+      </a>
+  </p>
+</div>
 
-> [!NOTE]
-> CODIGO: ISWD613
-> CARLOS Iñiguez <br>
-> 5 objetivos en la carrera
+<div align="center">
+  <h2>📚 Información del Curso</h2>
+  <table>
+    <tr>
+      <td><strong>Profesor:</strong></td>
+      <td>CARLOS Iñiguez</td>
+    </tr>
+    <tr>
+      <td><strong>Código:ISWD613</strong></td>
+      <td>ISWD543</td>
+    </tr>
+    <tr>
+      <td><strong>Grupo:</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Contacto:</strong></td>
+      <td>carlos.iniguez@epn.edu.ec</td>
+    </tr>
+  </table>
+</div>
 
-carlos.iniguez@epn.edu.ec
+
+
+
 
 > [!IMPORTANT]
 > DESTREZA: Construir aplicaciones web aplicando el proceso de ing. web

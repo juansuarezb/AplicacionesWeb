@@ -1,14 +1,15 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Brain.png" alt="Brain" width="100" height="100" />
   <h1>Aplicaciones Web</h1>
-  <p>
-     <a href="https://github.com/juansuarezb/AplicacionesWeb/stargazers">
-       <img alt="Stars" src="https://img.shields.io/github/stars/juansuarezb/AplicacionesWeb?style=social" />
-      </a>
-      <a href="https://github.com/juansuarezb/AplicacionesWeb/network/members">
-       <img alt="Forks" src="https://img.shields.io/github/forks/juansuarezb/AplicacionesWeb?style=social" />
-      </a>
-  </p>
+<p>
+    <a href="https://github.com/juansuarezb/AplicacionesWeb/stargazers">
+        <img alt="Stars" src="https://img.shields.io/github/stars/juansuarezb/AplicacionesWeb?style=social" />
+    </a>
+    <a href="https://github.com/juansuarezb/AplicacionesWeb/network/members">
+        <img alt="Forks" src="https://img.shields.io/github/forks/juansuarezb/AplicacionesWeb?style=social" />
+    </a>
+</p>
+
 </div>
 
 <div align="center">

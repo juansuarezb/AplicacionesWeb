@@ -3,8 +3,18 @@
 > ## CLASE 1
 > ## 15/04/2025
 
+# Índice
+
+- [Ir a PROCESO UNIFICADO DE DESARROLLO](#proceso-unificado-de-desarrollo)
+- [Ir a Información de la Carrera](#información-de-la-carrera)
+- [Ir a Casos de Uso](#casos-de-uso)
+- [Ir a Perfil de Egreso](#perfil-de-egreso)
+- [Ir a Perfil Profesional](#perfil-profesional)
+
+
 > [!NOTE]
-> PROCESO UNIFICADO DE DESARROLLO (PUD) - asi empezo el sw (primer estandar de desarrollo), METODO GENERAL <br>
+> ## PROCESO UNIFICADO DE DESARROLLO
+> - *PUD* Asi empezo el sw (primer estandar de desarrollo), METODO GENERAL <br>
 > metodologia pesada (tradicional) asi se le llama al proceso unificado de desarrollo.                             RUP (Rational Unified Process) <br>
 > fases: inception, elaboration, construction, transition (cada fase se puede dividir en iteraciones que resulta en un mini proyecto - producto incremental) <br>
 > en cada fase se debe realizar todo el workflow y pasar por todo: <br>
@@ -19,4 +29,15 @@
 
 en la fase de analisis no se habla del lenguaje de programacion
 
+> [!TIP]
+> ## Casos de uso
+> *Son una descripción (Sin mucho detalle).*
+>
+> 1. Diagrama de módulos
+>   ## 🧩 Diagrama de Paquetes del Sistema ERP
+>
+> El siguiente diagrama representa los módulos del sistema ERP y sus dependencias principales:
+>
+> ![Diagrama de paquetes](docs/diagrama-paquetes.png)
+> 2. 
 que significa ser dirigido por caso de uso.

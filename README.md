@@ -14,11 +14,10 @@
 
 <div align="center">
   <h2>📚 Información del Curso</h2>
-  <table>
-      PhD. 
+  <table>      
     <tr>
       <td><strong>Instructor:</strong></td>
-      <td>Carlos E. Iñiguez J.</td>
+      <td>PhD. Carlos E. Iñiguez J.</td>
     </tr>
     <tr>
       <td><strong>Código:ISWD613</strong></td>

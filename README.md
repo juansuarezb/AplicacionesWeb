@@ -7,8 +7,8 @@
 
 - [Ir a PROCESO UNIFICADO DE DESARROLLO](#proceso-unificado-de-desarrollo)
 - [Ir a Información de la Carrera](#información-de-la-carrera)
+- [Ir a Diagrama de Modulos](#diagrama-de-modulos)
 - [Ir a Casos de Uso](#casos-de-uso)
-- [Ir a Perfil de Egreso](#perfil-de-egreso)
 - [Ir a Perfil Profesional](#perfil-profesional)
 
 
@@ -30,14 +30,21 @@
 en la fase de analisis no se habla del lenguaje de programacion
 
 > [!TIP]
-> ## Casos de uso
-> *Son una descripción (Sin mucho detalle).*
->
-> 1. Diagrama de módulos
->   ## 🧩 Diagrama de Paquetes del Sistema ERP
+> ## Diagrama de Modulos
+>  🧩 Diagrama de Paquetes del Sistema ERP
 >
 > El siguiente diagrama representa los módulos del sistema ERP y sus dependencias principales:
 >
-> ![Diagrama de paquetes](docs/diagrama-paquetes.png)
+> ![Diagrama de paquetes](docs/diagrama-paquetes.png) <br>
+
+> [!TIP]
+> ## Casos de uso
+> *Son una descripción (Sin mucho detalle) del sistema.*
+>
+> ## Módulo de Ventas
+> 
+> [![Módulo de Ventas](docs/modulo-ventas.png)](docs/casos-uso-ventas.png)  
 > 2. 
 que significa ser dirigido por caso de uso.
+
+

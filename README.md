@@ -74,13 +74,23 @@ ProcesoIngSW/
 
 ![image](https://github.com/user-attachments/assets/bd258bb7-416e-42e5-99c5-d9bdf30a5307)
 
-> 📘 **Bibliografía**  
-> - [W3Schools](https://www.w3schools.com/) <br>
-> ![Vista previa de W3Schools](./Imagenes/Imagen1.avif)  <br> 
-> - [O'Reilly - Learning HTTP/2](https://api.pageplace.de/preview/DT0400.9781491962619_A29972571/preview-9781491962619_A29972571.pdf)  <br>
-> ![Vista previa de Learning HTTP/2](./Imagenes/Imagen2.avif) <br>
-> - [MDN Web Docs - Guía HTTP](https://developer.mozilla.org/es/docs/Web/HTTP/Guides/Overview)  <br>
-> ![Vista previa de Guia HTTP](./Imagenes/Imagen3.avif)   <br> 
 
+
+<h3 align="center">📘 Bibliografía</h3>
+
+<p align="center">
+  <a href="https://www.w3schools.com/">W3Schools</a><br>
+  <img src="./Imagenes/Imagen1.avif" alt="Vista previa de W3Schools" width="400"/><br><br>
+
+  <a href="https://api.pageplace.de/preview/DT0400.9781491962619_A29972571/preview-9781491962619_A29972571.pdf">
+    O'Reilly - Learning HTTP/2
+  </a><br>
+  <img src="./Imagenes/Imagen2.avif" alt="Vista previa de Learning HTTP/2" width="300"/><br><br>
+
+  <a href="https://developer.mozilla.org/es/docs/Web/HTTP/Guides/Overview">
+    MDN Web Docs - Guía HTTP
+  </a><br>
+  <img src="./Imagenes/Imagen3.avif" alt="Vista previa de Guía HTTP" width="400"/>
+</p>
 
 

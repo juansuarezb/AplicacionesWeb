@@ -43,7 +43,7 @@ en la fase de analisis no se habla del lenguaje de programacion
 >
 >  Módulo de Ventas
 > 
-> [![Módulo de Ventas](docs/modulo-ventas.png)](docs/casos-uso-ventas.png)  
+> 👉 [Haz clic aquí para ver el diagrama de módulos](https://juansuarezb/AplicacionesWeb/diagrama.html)
 > 2. 
 que significa ser dirigido por caso de uso.
 

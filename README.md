@@ -32,9 +32,7 @@ en la fase de analisis no se habla del lenguaje de programacion
 > [!TIP]
 > ## Diagrama de Modulos
 >  🧩 Diagrama de Paquetes del Sistema ERP
->
 > El siguiente diagrama representa los módulos del sistema ERP y sus dependencias principales:
->
 > ![Diagrama de paquetes](docs/diagrama-paquetes.png) <br>
 
 > [!TIP]
@@ -42,9 +40,11 @@ en la fase de analisis no se habla del lenguaje de programacion
 > *Son una descripción (Sin mucho detalle) del sistema.*
 >
 >  Módulo de Ventas
-> 
 > ![Diagrama de paquetes](docs/diagrama-paquetes2.png) <br>
-> 2. 
+> *Un caso de uso puede tener N escenearios.* <br>
+> **Escenario Básico:** *(Solo 1) Acciones que llevan al éxito del caso de uso.* <br> 
+> **Escenario alternativo:** (1 o más) Secuencias de acciones que llevan al éxito o NO del caso uso* <br>
+
 que significa ser dirigido por caso de uso.
 
 

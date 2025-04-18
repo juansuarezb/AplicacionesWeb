@@ -78,9 +78,9 @@ ProcesoIngSW/
 > - [W3Schools](https://www.w3schools.com/) <br>
 > ![Vista previa de W3Schools](./Imagenes/Imagen1.avif)  <br> 
 > - [O'Reilly - Learning HTTP/2](https://api.pageplace.de/preview/DT0400.9781491962619_A29972571/preview-9781491962619_A29972571.pdf)  <br>
-> ![Vista previa de Learning HTTP/2](./Imagenes/Imagen1.avif) <br>
+> ![Vista previa de Learning HTTP/2](./Imagenes/Imagen2.avif) <br>
 > - [MDN Web Docs - Guía HTTP](https://developer.mozilla.org/es/docs/Web/HTTP/Guides/Overview)  <br>
-> ![Vista previa de Guia HTTP](./Imagenes/Imagen1.avif)   <br> 
+> ![Vista previa de Guia HTTP](./Imagenes/Imagen3.avif)   <br> 
 
 
 

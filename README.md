@@ -20,7 +20,7 @@
       <td>PhD. Carlos E. Iñiguez J.</td>
     </tr>
     <tr>
-      <td><strong>Código:ISWD613</strong></td>
+      <td><strong>Código:</strong></td>
       <td>ISWD543</td>
     </tr>
     <tr>

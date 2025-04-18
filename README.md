@@ -43,7 +43,7 @@ en la fase de analisis no se habla del lenguaje de programacion
 >
 >  Módulo de Ventas
 > 
-> 👉 [Haz clic aquí para ver el diagrama de módulos](https://juansuarezb/AplicacionesWeb/diagrama-paquetes.drawio.html)
+> ![Diagrama de paquetes](docs/diagrama-paquetes2.png) <br>
 > 2. 
 que significa ser dirigido por caso de uso.
 

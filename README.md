@@ -41,7 +41,7 @@ en la fase de analisis no se habla del lenguaje de programacion
 > ## Casos de uso
 > *Son una descripción (Sin mucho detalle) del sistema.*
 >
-> ## Módulo de Ventas
+>  Módulo de Ventas
 > 
 > [![Módulo de Ventas](docs/modulo-ventas.png)](docs/casos-uso-ventas.png)  
 > 2. 

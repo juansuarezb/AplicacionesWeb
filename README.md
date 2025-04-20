@@ -85,6 +85,7 @@
 > > <div align="center">
 >   <img src="https://github.com/juansuarezb/AplicacionesWeb/raw/Semana2/Imagenes/Imagen2.avif" alt="Imagen de una PWA" width="30%">
 >   <p>Son una serie de características, tecnologías que le agregamos a una app. web existente para que se comporte como una aplicación movil nativa (Adaptar a la aplicación web)</p>
+>   <p>Se está tratando de que una app. web tengo el mismo rendimiento que una app. móvil nativa.</p></p>
 > </div>
 
 > [!NOTE]

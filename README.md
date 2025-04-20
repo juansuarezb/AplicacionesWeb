@@ -34,7 +34,7 @@
 > 1. **World Wide Web (la web o WWW)** fue creada por Tim Berners-Lee en 1991 en el *CERN*. <br>
 > 2. **Ideas precursoras de la web:** <br>
 > <div align="center">
->   <img src="https://github.com/juansuarezb/AplicacionesWeb/raw/Semana2/Imagenes/Diagrama1.png" alt="Imagen1" width="40%">   
+>   <img src="https://github.com/juansuarezb/AplicacionesWeb/raw/Semana2/Imagenes/Diagrama1.png" alt="Imagen1" width="60%">   
 > </div>
 > 3. **La Web es servicio de hipertexto/hipermedia para compartir documentos en Internet.**
 > 4. **La web se fundamenta en 3 estándares:** 
@@ -74,7 +74,7 @@
 > ## Tipos de aplicaciones
 > 
 > <div align="center">
->   <img src="https://github.com/juansuarezb/AplicacionesWeb/raw/Semana2/Imagenes/Diagrama3.png" alt="Imagen1" width="40%">   
+>   <img src="https://github.com/juansuarezb/AplicacionesWeb/raw/Semana2/Imagenes/Diagrama3.png" alt="Imagen1" width="60%">   
 > </div>
 > - *Los tipos de aplicaciones Web 1 y 2 se las conoce como aplicaciones web **Tradicionales***
 

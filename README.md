@@ -96,6 +96,14 @@
 >   <img src="https://github.com/juansuarezb/AplicacionesWeb/raw/Semana2/Imagenes/Imagen3.avif" alt="Imagen de IA" width="30%">
 >   <p>El trabajo consistía en escribir código con HTML luego, se cargaba la página con FTP al servidor web</p>
 > </div>
+> <div align="center">
+>   <img src="https://github.com/juansuarezb/AplicacionesWeb/raw/Semana2/Imagenes/Imagen6.png" alt="Imagen de IA" width="30%">
+>   <p>El desarrollador escribe la página web con HTML, CSS Y JS y carga la página en el servidor web.</p> <br> 
+>   <p>Usuario solicita la URl</p> <br>
+>   <p>El servidor localiza el documento </p> <br> 
+>   <p> el servidor responde con el documento (página web encontrada) </p> <br> 
+>   <p>El cliente presenta el documento HTML al usuario</p>  
+> </div>
 
 > [!NOTE]
 > ## Aplicaciones Web de página única (SPA)

@@ -1,6 +1,6 @@
 > [!IMPORTANT]
-> **Lectura Semana 1: Orígenes de la Web** <br>
-> *Objetivos:*
+> <a href="https://ciniguez.github.io/balava/appweb/semana_1__orgenes_de_la_web.html">Lectura Semana 1: Orígenes de la Web</a> <br>
+> <strong>Objetivos:</strong>
 > 1. Conocer el origen de la web y los actores involucrados
 > 2. Identificar ideas precursoras de la web
 > 3. Explicar la evolución de la web

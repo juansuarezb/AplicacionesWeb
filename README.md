@@ -33,22 +33,14 @@
 > ## Conceptos Clave
 > 1. **World Wide Web (la web o WWW)** fue creada por Tim Berners-Lee en 1991 en el *CERN*. <br>
 > 2. **Ideas precursoras de la web:** <br>
-> ```mermaid
-> graph TD
->     A[Ideas Precursoras de la Web]
->     A --> B[Memex - Vannevar Bush 1945]
->     A --> C[Proyecto Xanadu - Ted Nelson 1960]
->     A --> D[Compartir información científica - CERN]
-> ```
+> <div align="center">
+>   <img src="https://github.com/juansuarezb/AplicacionesWeb/raw/Semana2/Imagenes/Diagrama1.png" alt="Imagen1" width="40%">   
+> </div>
 > 3. **La Web es servicio de hipertexto/hipermedia para compartir documentos en Internet.**
 > 4. **La web se fundamenta en 3 estándares:** 
-> ```mermaid
-> graph TD
->    A[Estándares de la Web]
->    A --> B[URL]
->    A --> C[HTML]
->    A --> D[HTTP]
-> ```
+> <div align="center">
+>   <img src="https://github.com/juansuarezb/AplicacionesWeb/raw/Semana2/Imagenes/Diagrama2.png" alt="Imagen1" width="40%">   
+> </div>
 > - **URL (Localizador de Recursos Universal)**: secuencia de caracteres, de acuerdo a una sintaxis, que se usa para *nombrar recursos de Internet para su localización o identificación.*
 > - **HTML (Lenguaje de marcas de hipertexto)**: Lenguaje de marcas que estructura el contenido web mediante etiquetas.
 > - **HTTP (Hypertext Transfer Protocol)**: Protocolo que permite la comunicación entre cliente y servidor, define la sintaxis y la semántica que utilizan los elementos de software de la arquitectura web.
@@ -81,14 +73,9 @@
 > [!NOTE]
 > ## Tipos de aplicaciones
 > 
-> ```mermaid
-> graph TD
->    A[Tipos de aplicaciones Web]
->    A --> B[Aplicaciones Web Estáticas]
->    A --> C[Aplicaciones Web Dinámicas]
->    A --> D[Aplicaciones Web de una sola página SPA]
->    A --> E[Aplicaciones Web Progresivas PWA]
-> ```
+> <div align="center">
+>   <img src="https://github.com/juansuarezb/AplicacionesWeb/raw/Semana2/Imagenes/Diagrama3.png" alt="Imagen1" width="40%">   
+> </div>
 > - *Los tipos de aplicaciones Web 1 y 2 se las conoce como aplicaciones web **Tradicionales***
 
 > [!NOTE]

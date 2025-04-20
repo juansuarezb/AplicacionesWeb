@@ -24,8 +24,10 @@
 > 3. HTTP (Protocolo de comunicaciones) <br>
 
 > [!IMPORTANT]
-> *Es imporante recordar que la web **NO** es lo mismo que internet*
-
+> *Es imporante recordar que la web **NO** es lo mismo que internet* <br>
+> *La internet es una red de redes mientras que la web es un servicio que se ejecuta sobre el internet* <br>
+> *Diferencia entra el internet y la web: El internet entrega paquetes de información a cualquier parte del mundo* <br>
+> *La web es un espacio de información abstracto, en la web encuentras documentos* <br>
 
 > [!NOTE]
 > ## Conceptos Clave
@@ -97,13 +99,17 @@
 >   <p>El trabajo consistía en escribir código con HTML luego, se cargaba la página con FTP al servidor web</p>
 > </div>
 > <div align="center">
->   <img src="https://github.com/juansuarezb/AplicacionesWeb/raw/Semana2/Imagenes/Imagen6.png" alt="Imagen de IA" width="30%">
->   <p>El desarrollador escribe la página web con HTML, CSS Y JS y carga la página en el servidor web.</p> <br> 
->   <p>Usuario solicita la URl</p> <br>
->   <p>El servidor localiza el documento </p> <br> 
->   <p> el servidor responde con el documento (página web encontrada) </p> <br> 
->   <p>El cliente presenta el documento HTML al usuario</p>  
+>   <img src="https://github.com/juansuarezb/AplicacionesWeb/raw/Semana2/Imagenes/Imagen6.png" alt="Imagen de IA" width="30%"> <br>
+>   <p>1. El desarrollador escribe la página web con HTML, CSS Y JS y carga la página en el servidor web.</p> <br> 
+>   <p>2. Usuario solicita la URL</p> <br>
+>   <p>3. El servidor localiza el documento </p> <br> 
+>   <p>4. El servidor responde con el documento (página web encontrada) </p> <br> 
+>   <p>5. El cliente presenta el documento HTML al usuario</p>  
 > </div>
+
+> [!NOTE]
+> ## Aplicaciones Web dinámicas
+> 
 
 > [!NOTE]
 > ## Aplicaciones Web de página única (SPA)

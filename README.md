@@ -38,9 +38,8 @@
 >     A --> C[Proyecto Xanadu - Ted Nelson 1960]
 >     A --> D[Compartir información científica - CERN]
 > ```
-> 
-> 3. **La web se fundamenta en 3 estándares:**
-> 
+> 3. **La Web es servicio de hipertexto/hipermedia para compartir documentos en Internet.**
+> 4. **La web se fundamenta en 3 estándares:** 
 > ```mermaid
 > graph TD
 >    A[Estándares de la Web]
@@ -51,6 +50,7 @@
 > - **URL (Localizador de Recursos Universal)**: secuencia de caracteres, de acuerdo a una sintaxis, que se usa para *nombrar recursos de Internet para su localización o identificación.*
 > - **HTML (Lenguaje de marcas de hipertexto)**: Lenguaje de marcas que estructura el contenido web mediante etiquetas.
 > - **HTTP (Hypertext Transfer Protocol)**: Protocolo que permite la comunicación entre cliente y servidor, define la sintaxis y la semántica que utilizan los elementos de software de la arquitectura web.
+> 5. **World Wide Web Consortium (W3C):** velar por los estándares de la Web.
 
 > [!NOTE]
 > ## ¿Qué es una aplicacion web?
@@ -78,6 +78,14 @@
 >   <p>El trabajo consistía en escribir código con HTML luego, se cargaba la página con FTP al servidor web</p>
 > </div>
 
+> [!NOTE]
+> ## Aplicaciones de web progresivas 
+> *PWA - Progessive Web Apps es una manera de crear aplicaciones web que se adaptan a los dispositivos móviles* <br>
+> *Lleva el concepto de la web al dispositivo movil*
+> > <div align="center">
+>   <img src="https://github.com/juansuarezb/AplicacionesWeb/raw/Semana2/Imagenes/Imagen4.avif" alt="Imagen de una PWA" width="30%">
+>   <p>Son una serie de características, tecnologías que le agregamos a una app. web existente para que se comporte como una aplicación movil nativa (Adaptar a la aplicación web)</p>
+> </div>
 
 > [!NOTE]
 > ## CLASE 2

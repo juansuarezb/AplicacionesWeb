@@ -83,7 +83,7 @@
 > *PWA - Progessive Web Apps es una manera de crear aplicaciones web que se adaptan a los dispositivos móviles* <br>
 > *Lleva el concepto de la web al dispositivo movil*
 > > <div align="center">
->   <img src="https://github.com/juansuarezb/AplicacionesWeb/raw/Semana2/Imagenes/Imagen4.avif" alt="Imagen de una PWA" width="30%">
+>   <img src="https://github.com/juansuarezb/AplicacionesWeb/raw/Semana2/Imagenes/Imagen2.avif" alt="Imagen de una PWA" width="30%">
 >   <p>Son una serie de características, tecnologías que le agregamos a una app. web existente para que se comporte como una aplicación movil nativa (Adaptar a la aplicación web)</p>
 > </div>
 

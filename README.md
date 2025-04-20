@@ -54,8 +54,14 @@
 
 > [!NOTE]
 > ## ¿Qué es una aplicacion web?
-> 
-  
+> *Es un programa de computador **cliente-servidor** que se ejecuta en un navegador* <br>
+> -No dependen del S.O. sino, del navegador web en el que se ejecutan. <br>
+> *Renderización:* proceso para visualizar la página web. <br>
+> *Arquitectura cliente-servidor:* <br>
+> <div align="center">
+>   <img src="https://github.com/juansuarezb/AplicacionesWeb/raw/Semana2/Imagenes/Imagen5.avif" alt="Imagen1" width="40%">
+>   <p>La aplicación web se ejecuta en el navegador del cliente pero prviamente hubo una petición al servidor que procesa dicha app. web.</p>  
+> </div>  
 
 > [!NOTE]
 > ## Tipos de aplicaciones
@@ -77,6 +83,10 @@
 >   <img src="https://github.com/juansuarezb/AplicacionesWeb/raw/Semana2/Imagenes/Imagen3.avif" alt="Imagen de IA" width="30%">
 >   <p>El trabajo consistía en escribir código con HTML luego, se cargaba la página con FTP al servidor web</p>
 > </div>
+
+> [!NOTE]
+> ## Aplicaciones Web de página única (SPA)
+> 
 
 > [!NOTE]
 > ## Aplicaciones Web Progresivas (PWA)
@@ -108,8 +118,14 @@
 >   <p>Son una serie de características, tecnologías que le agregamos a una app. web existente para que se comporte como una aplicación movil nativa (Adaptar a la aplicación web)</p>
 >   <p>Se está tratando de que una app. web tengo el mismo rendimiento que una app. móvil nativa.</p></p>
 > </div>
+> <div align="center">
+>   <img src="https://github.com/juansuarezb/AplicacionesWeb/raw/Semana2/Imagenes/Imagen4.avif" alt="Imagen de IA" width="30%">
+>   <p>Ejemplos de aplicaciones web progresivas</p>
+> </div>
 
->
+> [!IMPORTANT]
+> **Service Worker:** permite ejecutar el navegador en 2do plano <br>
+> Voy a tener una página web y en 2do plano se ejecuta el navegador del dispositivo
 
 
 > [!NOTE]

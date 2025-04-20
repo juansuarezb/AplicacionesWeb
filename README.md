@@ -56,12 +56,25 @@
 > ## ¿Qué es una aplicacion web?
 > *Es un programa de computador **cliente-servidor** que se ejecuta en un navegador* <br>
 > -No dependen del S.O. sino, del navegador web en el que se ejecutan. <br>
-> *Renderización:* proceso para visualizar la página web. <br>
-> *Arquitectura cliente-servidor:* <br>
+> *-Renderización:* proceso para visualizar la página web. <br>
+> *-Arquitectura cliente-servidor:* <br>
 > <div align="center">
->   <img src="https://github.com/juansuarezb/AplicacionesWeb/raw/Semana2/Imagenes/Imagen5.avif" alt="Imagen1" width="40%">
+>   <img src="https://github.com/juansuarezb/AplicacionesWeb/raw/Semana2/Imagenes/Imagen5.avif" alt="Imagen1" width="40%"> <br>
+> -  Un cliente realiza peticiones "solicita" <br>
+> -  Un servidor apartir de la solicitud "responde" <br>
+> -  La comunicación entre cliente - servidor es através del procotolo TCP/IP  
 >   <p>La aplicación web se ejecuta en el navegador del cliente pero prviamente hubo una petición al servidor que procesa dicha app. web.</p>  
 > </div>  
+
+> [!NOTE]
+> ## Arquitectura Web
+> *La web es un servicio de internet asi, primero entenderemos la estructura de comunicación del internet que funciona através de un protocolo llamado TCP/IP* <br>
+> *Conocido como el protocolo de internet, la comunicación entre computadores sigue el **modelo** de cliente servidor* <br>
+> La arquitectura web está basado en el modelo Cliente-servidor <br>
+> 1. El cliente es un navegador web que puede ser ejecutado desde un dispositivo. Ej: Chrome. <br>
+> 2. El servidor es una aplicación software denominado **servidor web** se ejecuta en un computador, **escucha** peticiones por un puerto **80**. Ej: Apache Tomcat <br>
+> 3. La comunicaciónentre Cliente-Servidor se realiza atraves del protocolo **HTTP** el cual por detrás usa **TCP-IP**
+> 4. 
 
 > [!NOTE]
 > ## Tipos de aplicaciones

@@ -79,14 +79,38 @@
 > </div>
 
 > [!NOTE]
-> ## Aplicaciones de web progresivas 
-> *PWA - Progessive Web Apps es una manera de crear aplicaciones web que se adaptan a los dispositivos móviles* <br>
-> *Lleva el concepto de la web al dispositivo movil*
-> > <div align="center">
+> ## Aplicaciones Web Progresivas (PWA)
+> *Primero, hay que entender el concepto de **aplicación nativa***  
+> Aplicaciones desarrolladas específicamente para un S.O. (ej: WhatsApp).  
+> Funcionan sin internet y se distribuyen en App Store y Play Store.  
+> 
+> ***PWA (Progressive Web Apps)**: Una forma de crear aplicaciones web que se adaptan a dispositivos móviles.*  
+> Llevan el concepto de la web al móvil y **se ejecutan en el navegador**, siendo la evolución de las apps web tradicionales.  
+> 
+> **🔍 Ventajas de las PWA:**  
+> ✅ **No necesitan instalación** (se accede desde el navegador).  
+> ✅ **Velocidades de carga superiores** (uso de caché y optimización).  
+> ✅ **Notificaciones push** (directamente al smartphone).  
+> ✅ **Prueba antes de descargar** (funcionan como web normal).  
+> ✅ **Multiplataforma** (ejecución en cualquier SO: Windows, macOS, Android, iOS).  
+> ✅ **Adaptación al SO** (se ajustan al diseño del sistema).  
+> ✅ **Mayor seguridad** (menor riesgo de malware vs. apps nativas).  
+> ✅ **Actualizaciones automáticas** (sin intervención del usuario).  
+> ✅ **Menor coste** (desarrollo y mantenimiento vs. apps nativas).  
+> ✅ **Menor consumo de recursos** (comparado con apps nativas).  
+> 
+> **⚠️ Desventajas:**  
+> ❌ **Requieren conexión a internet** (aunque pueden funcionar offline con Service Workers).  
+> ❌ **Limitaciones en funcionalidades nativas** (ej: NFC, Bluetooth avanzado).  
+> ❌ **Dependencia del navegador** (rendimiento varía según Chrome, Safari, etc.).
+>  <div align="center">
 >   <img src="https://github.com/juansuarezb/AplicacionesWeb/raw/Semana2/Imagenes/Imagen2.avif" alt="Imagen de una PWA" width="30%">
 >   <p>Son una serie de características, tecnologías que le agregamos a una app. web existente para que se comporte como una aplicación movil nativa (Adaptar a la aplicación web)</p>
 >   <p>Se está tratando de que una app. web tengo el mismo rendimiento que una app. móvil nativa.</p></p>
 > </div>
+
+>
+
 
 > [!NOTE]
 > ## CLASE 2

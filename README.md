@@ -56,8 +56,8 @@
 > ## ¿Qué es una aplicacion web?
 > *Es un programa de computador **cliente-servidor** que se ejecuta en un navegador* <br>
 > -No dependen del S.O. sino, del navegador web en el que se ejecutan. <br>
-> *Renderización:* proceso para visualizar la página web. <br>
-> *Arquitectura cliente-servidor:* <br>
+> *-Renderización:* proceso para visualizar la página web. <br>
+> *-Arquitectura cliente-servidor:* <br>
 > <div align="center">
 >   <img src="https://github.com/juansuarezb/AplicacionesWeb/raw/Semana2/Imagenes/Imagen5.avif" alt="Imagen1" width="40%">
 >   <p>La aplicación web se ejecuta en el navegador del cliente pero prviamente hubo una petición al servidor que procesa dicha app. web.</p>  

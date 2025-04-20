@@ -1,7 +1,61 @@
+> [!IMPORTANT]
+> **Lectura Semana 1: Orígenes de la Web** <br>
+> *Objetivos:*
+> 1. Conocer el origen de la web y los actores involucrados
+> 2. Identificar ideas precursoras de la web
+> 3. Explicar la evolución de la web
+> 4. Conocer quién está a cargo del Control y Organización de la Web
+> 5. Describir los tipos de aplicaciones Web
+> 6. Distinguir las principales ventajas e inconvenientes de cada tipo de aplicación.
+> 7. Listar ejemplos de cada aplicación
 
 > [!NOTE]
-> ## CLASE 1
-> ## 15/04/2025
+> ## Un poco de historia
+> *Se hablará de las ideas precursoras que sembraron las bases para la web, además de explicar la siguientes palabras y discutir su papel en el proceso del nacimiento de la web:*
+> <div align="center">
+>   <img src="https://github.com/juansuarezb/AplicacionesWeb/raw/Semana2/Imagenes/Imagen1.avif" alt="Imagen1" width="85%">   
+> </div>
+> Él es Tim Berners-Lee padre de la WorldWideWeb (WWW - Red Informática Mundial), desarrolló la web considerando 3 componentes clave: <br>
+> <div align="center">
+>   <img src="https://github.com/juansuarezb/AplicacionesWeb/raw/Semana2/Imagenes/Imagen2.webp" alt="Imagen1" width="85%">   
+> </div>
+> 1. HTML (Lenguaje de etiquetas de hipertexto) <br>
+> 2. URL (Localizador de recursos) <br>
+> 3. HTTP (Protocolo de comunicaciones) <br>
+
+> [!IMPORTANT]
+> *Es imporante recordar que la web **NO** es lo mismo que internet*
+
+
+> [!NOTE]
+> ## Conceptos Clave
+> 1. **World Wide Web (la web o WWW)** fue creada por Tim Berners-Lee en 1991 en el *CERN*. <br>
+> 2. **Ideas precursoras de la web:** <br>
+> ```mermaid
+> graph TD
+>     A[Ideas Precursoras de la Web]
+>     A --> B[Memex - Vannevar Bush 1945]
+>     A --> C[Proyecto Xanadu - Ted Nelson 1960]
+>     A --> D[Compartir información científica - CERN]
+> ```
+> 
+> 3. **La web se fundamenta en 3 estándares:**
+> 
+> ```mermaid
+> graph TD
+>    A[Estándares de la Web]
+>    A --> B[URL]
+>    A --> C[HTML]
+>    A --> D[HTTP]
+> ```
+> - **URL (Localizador de Recursos Universal)**: secuencia de caracteres, de acuerdo a una sintaxis, que se usa para *nombrar recursos de Internet para su localización o identificación.*
+> - **HTML (Lenguaje de marcas de hipertexto)**: Lenguaje de marcas que estructura el contenido web mediante etiquetas.
+> - **HTTP (Hypertext Transfer Protocol)**: Protocolo que permite la comunicación entre cliente y servidor, define la sintaxis y la semántica que utilizan los elementos de software de la arquitectura web.
+
+
+> [!NOTE]
+> ## CLASE 2
+> ## 21/04/2025
 
 # Índice
 

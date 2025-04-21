@@ -130,7 +130,7 @@
 >  <div align="center">
 >   <img src="https://github.com/juansuarezb/AplicacionesWeb/raw/Semana2/Imagenes/Imagen2.avif" alt="Imagen de una PWA" width="30%">
 >   <p>Son una serie de características, tecnologías que le agregamos a una app. web existente para que se comporte como una aplicación movil nativa (Adaptar a la aplicación web)</p>
->   <p>Se está tratando de que una app. web tengo el mismo rendimiento que una app. móvil nativa.</p></p>
+>   <p>Se está tratando de que una app. web tenga el mismo rendimiento que una app. móvil nativa.</p></p>
 > </div>
 > <div align="center">
 >   <img src="https://github.com/juansuarezb/AplicacionesWeb/raw/Semana2/Imagenes/Imagen4.avif" alt="Imagen de IA" width="30%">
@@ -145,14 +145,16 @@
 > [!NOTE]
 > ## CLASE 2
 > ## 21/04/2025
+> <p>EL protocolo TCP/IP se encarga del envio de paquetes</p>
+> <p>Tim Bernerl-lee se basó en la arquitectura cliente-servidor para crear la web</p>
+> <p><strong>HTTP REQUEST - HTPP RESPONSE</strong></p>
+> <p>Diferencia entre hipermedia e hipertexto</p>
+> <ul>
+> <li>Hipertexto solo es texto</li>
+> <li>Media: Imagenes, videos, audios.</li>
+> </ul>
 
-# Índice
-
-- [Ir a PROCESO UNIFICADO DE DESARROLLO](#proceso-unificado-de-desarrollo)
-- [Ir a Información de la Carrera](#información-de-la-carrera)
-- [Ir a Diagrama de Modulos](#diagrama-de-modulos)
-- [Ir a Casos de Uso](#casos-de-uso)
-- [Ir a Perfil Profesional](#perfil-profesional)
+> [!
 
 
 

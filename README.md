@@ -79,17 +79,16 @@ ProcesoIngSW/
 <h3 align="center">📘 Bibliografía</h3>
 
 <p align="center">
-  <a href="https://www.w3schools.com/">W3Schools</a><br>
-  <img src="./Imagenes/Imagen1.avif" alt="Vista previa de W3Schools" width="400"/><br><br>
+  <a href="https://www.w3schools.com/">W3Schools<br>
+  <img src="./Imagenes/Imagen1.avif" alt="Vista previa de W3Schools" width="400"/></a>
 
   <a href="https://api.pageplace.de/preview/DT0400.9781491962619_A29972571/preview-9781491962619_A29972571.pdf">
     O'Reilly - Learning HTTP/2
-  </a><br>
-  <img src="./Imagenes/Imagen2.avif" alt="Vista previa de Learning HTTP/2" width="300"/><br><br>
+  <img src="./Imagenes/Imagen2.avif" alt="Vista previa de Learning HTTP/2" width="300"/></a>
 
   <a href="https://developer.mozilla.org/es/docs/Web/HTTP/Guides/Overview">
     MDN Web Docs - Guía HTTP
-  </a><br>
+  <<br>
   <img src="./Imagenes/Imagen3.avif" alt="Vista previa de Guía HTTP" width="400"/>
 </p>
 

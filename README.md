@@ -197,6 +197,15 @@ y para representar en UML utilizo robustez (para cada caso de uno un diagrama de
 -En el momento que analizo ya debo de tener una idea de la arquitectura que va a tener el sistema. (MVC ModeloVistaControlador)
 Cuando hago el diagrama de robustez ya empiezo a centrar al caso de uso en la arquitectura
 
-
-
-
+> [!IMPORTANT]
+> 22/04/2025
+> 4 Fases que tiene PUD y que indican el ciclo de vida de desarrollo: Incepction, Elaboration, Construction, Transition
+> Para pasar a la siguiente fase necesito un flujo de actividades
+> 1. (Diagrama de procesos - Business Model) - Dentro de cada fase puedo hacer iteraciones (slides) para obtener un miniproyecto
+>
+> 2. **Dirigido por casos de uso**
+>  <em>Caso de uso: Funcionalidad que quiero y es la historia de uso del sistema</em>   
+> <div align="center">
+>   <img src="https://github.com/juansuarezb/AplicacionesWeb/raw/Semana2/Imagenes/ImagenClase.avif" alt="Imagen de IA" width="30%">
+>   <p>Ejemplos de aplicaciones web progresivas</p>
+> </div>

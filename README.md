@@ -209,3 +209,4 @@ Cuando hago el diagrama de robustez ya empiezo a centrar al caso de uso en la ar
 >   <img src="https://github.com/juansuarezb/AplicacionesWeb/raw/Semana2/Imagenes/ImagenClase.avif" alt="Imagen de IA" width="30%">
 >   <p>Ejemplos de aplicaciones web progresivas</p>
 > </div>
+> **Vamos a utilizar una aplicacion CASE->VisualParadigm**

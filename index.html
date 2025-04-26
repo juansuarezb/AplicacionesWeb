@@ -9,13 +9,13 @@
       <ul>
         <li><a class="nav-link" href="#Introduction">Introduction</a></li>
         <li>
-          <a class="nav-link" href="#if...else_statement"
-            >Modelo Entidad-Relación</a
+          <a class="nav-link" href="#Semana_2"
+            >Semana 2: El protocolo HTTP</a
           >
         </li>
         <li>
-          <a class="nav-link" href="#while_statement"
-            >Modelo Relacional.</a
+          <a class="nav-link" href="#Semana_3"
+            >Semana 3: HTML Y HTML5 </a
           >
         </li>
         <li>
@@ -62,41 +62,12 @@
       <section class="main-section" id="Introduction">
         <header>Introducción</header>
         <article>
-          <h2>¿Qué es una BD?</h2>
-          <p>
-            Es una <strong>colección de datos estructurados</strong>,
-            pertenecientes a una organización. Almacenada en algún medio y usada
-            para obtener información
-          </p>
-
-          <p>
-            Si, el papel puede ser utilizado como Base de datos o un programa.
-            Ejemplos:
-          </p>
-          <ul>
-            <li>Guía telefónica.</li>
-            <li>Los datos del Seguro Social.</li>
-            <li>Los datos académicos de una Universidad.</li>
-          </ul>
-
-          <h2>Sistemas de información: <em>Sistemas de archivos</em></h2>
-          <h3>Problemas de los sistemas de archivos</h3>
-          <ul>
-            <li>
-              <strong>Redundancia e Inconsistencia de datos:</strong>
-              Se repiten los mismos datos en diferentes archivos.
-            </li>
-            <li>
-              <strong>Dificultad en el acceso de datos </strong>
-              Necesitamos un programa diferente para cada archivo.
-            </li>
-          </ul>
-
-          <h2>Sistemas de información: <em>Modelo Relacional</em></h2>
-          <p>
-            El modelo relacional usa varias <strong>tablas</strong> para
-            organizar los datos.
-          </p>
+          <div align="center">
+            <figure>
+              <img src="Imagenes/MapaHTTP.avif" alt="MapaHTTP" width="128%" />
+              <figcaption>Mapa HTTP</figcaption>
+            </figure>
+          </div>
           <table border="1">
             <thead>
               <tr>
@@ -127,52 +98,7 @@
               </tr>
             </tbody>
           </table>
-          <p>La tabla se estructura por <strong>columnas y filas.</strong></p>
-
-          <h2>DBMSs</h2>
-          <p>Sistemas de Gestión de BD</p>
-          <p>
-            Conjunto de programas para acceder a los datos.<br />
-            Ejemplos: MySQL, PostgreSQL, Oracle, SQL Server, MongoDB
-          </p>
-
-          <h2>Modelos de Datos</h2>
-          <p><strong>Herramientas</strong> para describir:</p>
-          <ul>
-            <li>Datos</li>
-            <li>Relaciones entre los datos</li>
-            <li>Semántica de datos</li>
-            <li>Reestricciones de datos</li>
-          </ul>
-          <ol>
-            <p>Ejemplos:</p>
-
-            <li>Modelo relacional</li>
-            <li>Modelo Entidad-Relación (Diseño de BD)</li>
-            <li>Modelo de datos semiestructurados (XML)</li>
-            <li>Modelo orientado a objetos</li>
-            <li>Modelo de red</li>
-            <li>Modelo Jerarquico</li>
-          </ol>
-          <h2>Sistema de Bases de Datos (DBS)</h2>
-          <figure>
-            <img
-              src="images/dbs.avif"
-              alt="Sistema de Bases de Datos"
-              width="80%"
-            />
-            <figcaption>Un DBS está compuesto por:</figcaption>
-            <ul>
-              <li>Base de datos</li>
-              <li>DBMS</li>
-              <li>DBA</li>
-              <li>Usuarios</li>
-              <li>Software de aplicación</li>
-              <li>Software de</li>
-              <li>Hardware de procesamiento</li>
-              <li>Hardware de conectividad</li>
-            </ul>
-          </figure>
+          
         </article>
       </section>
       <section class="main-section" id="What_you_should_already_know">
@@ -181,12 +107,52 @@
 
         </article>
       </section>
-      <section class="main-section" id="JavaScript_and_Java">
-        <header>JavaScript and Java</header>
-        <article></article>
+      <section class="main-section" id="Semana_2">
+        <header>Semana2: Protocolo HTPP</header>
+        <article>
+          <h2>Objetivos: </h2>
+          <ol>
+            <li>Identificar los actores de la arquitectura web</li>
+            <li>Discutir cada componente de la comunicacion HTTP</li>
+            <li>Identificar las partes de una URL</li>
+            <li>Proponer URLS adecuadas</li>
+          </ol>
+          <h2>La URL</h2>
+          <h4>¿Qué es la URI (Identificador de recursos Uniforme) ?</h4>
+          <p>La URI es una cadena de caracteres para Identificar a un recurso en una red.</p>
+          <h4>Datos Importantes de la URI</h4>
+          <ul>
+            <li>La URI puede ser una URL, URN o ambos</li>
+            <li>La sintaxis de la URI está descrita en RFC 3986</li>
+            <li>Se utiliza para establecer hiperenlaces en la WWW</li>
+            <li>La URI es un sistema diseñado para nombrar y localizar los recursos en la Web.</li>
+          </ul>
+          <h4>Sintaxis de la URI</h4>
+          <h4>Reconociendo las partes...</h4>
+          <h4>Describiendo las partes</h4>
+          <h4>Ejemplos de URIs</h4>
+          <h4>Consejos para crear buenas URIs</h4>
+          <h4>Material de consulta</h4>
+          <h2>El protocolo HTTP</h2>
+          <h4>Contexto</h4>
+          <h4>Características</h4>
+          <h4>¿Cómo sucede la comunicación a través de HTTP?</h4>
+          <h2>Mensajes HTTP</h2>
+          <h4>Solicitud HTPP</h4>
+          <h4>Respuesta HTTP</h4>
+          <h2>Cabeceras</h2>
+          <h4>¿Qué es una Cabecera HTTP?</h4>
+          <h4>Cabeceras de Petición</h4>
+          <h4>Cabeceras de Respuesta</h4>
+          <h2>Metodos HTPP</h2>
+          <h4>Los métodos HTTP</h4>
+          <h4>Método GET</h4>
+          <h4>Método POST</h4>
+          <h4>Indicar el tipo de contenido es importante...</h4>
+        </article>
       </section>
-      <section class="main-section" id="Hello_world">
-        <header>Hello world</header>
+      <section class="main-section" id="Semana_3">
+        <header>Semana3: HTML Y HTML5</header>
         <article></article>
       </section>
       <section class="main-section" id="Variables">
@@ -215,50 +181,7 @@
       <section class="main-section" id="if...else_statement">
         <header>Modelo E-R</header>
         <article>
-          <p>
-            Es un tipo de <em>enfoque de diseño</em> de BDs. Modela una
-            empresa como una colección de <em>entidades y relaciones.</em> Se
-            representa mediante un <strong>diagrama entidad-relación</strong>. Y
-            emplea 3 conceptos básicos: <strong>Entidades, relaciones y atributos.</strong>
-          </p>
-          <p>Una <strong><em>relación</em></strong> es una asociación entre varias entidades. Tambíen puede representarse como una tabla (relaciones con atributos).</p>
-          <h3>Grado de una relación</h3>
-            <p>El número de entidades que participan en una relación.</p>
-            <p>Normalmente son del tipo <strong>binaria (o grado 2).</strong>
-             Una relación <strong>Ternaria</strong> podria ser: <br> <em>Estudiantes</em> trabajan</em> en un <em>proyecto</em> de investigación, bajo la supervisión de un <em>profesor</em>.</p>
-            </p>
-          <h3>Reestriciones de cardinalidad</h3>
-            <p>Especifica el número mínimo y máximo de entidades que pueden participar en una relación.</p>
-            <p>Para las relaciones binarias, la cardinalidad debe ser del tipo: </p>
-            <ul>
-                <li>Uno a uno (1:1)</li>
-                <li>Uno a muchos (1:N)</li>
-                <li>Muchos a uno (N:1)</li>
-                <li>Muchos a muchos (N:M)</li>
-            </ul>
-            <h3>Atributos redundantes</h3>
-            <p>Cuando 2 entidades tienen un mismo atributo se está presentando la redundancia y para resolver esto utilizamos una <strong>relación</strong></p>
-
-            <h3>Fases del diseño</h3>
-          <p>
-            En una “especificación de requiremientos funcionales ”, los usuarios
-            describen los tipos de operaciones (o transacciones) que se realizan
-            sobre los datos
-          </p>
-          <p>
-            El proceso de pasar un modelo de datos a la implementación de la BD
-            tiene lugar en 2 fases finales del diseño:
-          </p>
-          <ul>
-            <li>
-              <strong>Diseño lógico</strong>: Decidir el esquema de la base de
-              datos , ¿Cuáles atributos guardar en la base de datos?
-            </li>
-            <li>
-              <strong>Diseño físico</strong>: – Decidir sobre las
-              características y la organización físicas de la base de datos.
-            </li>
-          </ul>
+          
         </article>
       </section>
       <section class="main-section" id="while_statement">
@@ -272,16 +195,7 @@
       <section class="main-section" id="Reference">
         <header>Reference</header>
         <article>
-          <ul>
-            <li>
-              All the documentation in this page is taken from
-              <a
-                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
-                target="_blank"
-                >MDN</a
-              >
-            </li>
-          </ul>
+
         </article>
       </section>
     </main>

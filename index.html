@@ -5,17 +5,17 @@
   </head>
   <body>
     <nav id="navbar">
-      <header>Modelado de BD</header>
+      <header>Semana 2: El protocolo HTTP</header>
       <ul>
         <li><a class="nav-link" href="#Introduction">Introduction</a></li>
         <li>
-          <a class="nav-link" href="#Semana_2"
-            >Semana 2: El protocolo HTTP</a
+          <a class="nav-link" href="#la_uri"
+            >La URI</a
           >
         </li>
         <li>
-          <a class="nav-link" href="#Semana_3"
-            >Semana 3: HTML Y HTML5 </a
+          <a class="nav-link" href="#protocolo_http"
+            >El protocolo HTTP</a
           >
         </li>
         <li>
@@ -68,36 +68,7 @@
               <figcaption>Mapa HTTP</figcaption>
             </figure>
           </div>
-          <table border="1">
-            <thead>
-              <tr>
-                <th>ID</th>
-                <th>Nombre</th>
-                <th>Edad</th>
-                <th>Correo Electrónico</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1</td>
-                <td>Juan Pérez</td>
-                <td>20</td>
-                <td>juan.perez@example.com</td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>María López</td>
-                <td>22</td>
-                <td>maria.lopez@example.com</td>
-              </tr>
-              <tr>
-                <td>3</td>
-                <td>Carlos García</td>
-                <td>21</td>
-                <td>carlos.garcia@example.com</td>
-              </tr>
-            </tbody>
-          </table>
+         
           
         </article>
       </section>
@@ -107,18 +78,16 @@
 
         </article>
       </section>
-      <section class="main-section" id="Semana_2">
-        <header>Semana2: Protocolo HTPP</header>
-        <article>
-          <h2>Objetivos: </h2>
+      <section class="main-section" id="la_uri">
+        <h2>Objetivos: </h2>
           <ol>
             <li>Identificar los actores de la arquitectura web</li>
             <li>Discutir cada componente de la comunicacion HTTP</li>
             <li>Identificar las partes de una URL</li>
             <li>Proponer URLS adecuadas</li>
-          </ol>
-          <h2>La URL</h2>
-          <h4>¿Qué es la URI (Identificador de recursos Uniforme) ?</h4>
+          </ol>        
+        <header>La URI (Identificador de recursos uniforme)</header>
+        <article>                    
           <p>La URI es una cadena de caracteres para Identificar a un recurso en una red.</p>
           <h4>Datos Importantes de la URI</h4>
           <ul>
@@ -128,32 +97,91 @@
             <li>La URI es un sistema diseñado para nombrar y localizar los recursos en la Web.</li>
           </ul>
           <h4>Sintaxis de la URI</h4>
+          <p>Existen 2 clases de URI:</p>
+          <ul>
+            <li><strong>URL</strong> (Uniform Resource Locator): Proporciona la localización del recurso.</li>
+            <li><strong>URN </strong>(Uniform Resource Name): Proporciona el nombre del recurso.</li>
+          </ul>
           <h4>Reconociendo las partes...</h4>
+          <figure>
+            <img src="Imagenes/partes.avif" alt="partes" width="128%" />
+            <figcaption>Partes de una URI</figcaption>
+          </figure>          
           <h4>Describiendo las partes</h4>
+          <table border="1">
+            <thead>
+              <tr>
+                <th>Parte</th>
+                <th>Descripción</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Esquema</td>
+                <td>Indica el protocolo utilizado para acceder al recurso.</td>
+              </tr>
+              <tr>
+                <td>Parte Jerarquica</td>
+                <td>Identifica el camino a seguir para acceder al recurso
+                  <ul>
+                    <li>Autoridad</li>
+                    <li>Path (ruta)</li>
+                  </ul>
+                </td>
+                
+              </tr>
+              <tr>
+                <td>Cadena de consulta</td>
+                <td>Identifica los parámetros para localizar el recurso en el servidor (Query).</td>
+                
+              </tr>
+              <tr>
+                <td>Fragmento</td>
+                <td>Identifica una parte o sección dentro del documento.</td>
+            </tbody>
+          </table> 
+
           <h4>Ejemplos de URIs</h4>
+          <ul>
+            <li>ftp://ftp.is.co.za/rfc/rfc1808.txt</li>
+            <li> http://www.ietf.org/rfc/rfc2396.txt</li>
+            <li>ldap://[2001:db8::7]/c=GB?objectClass?one </li>
+            <li>mailto:John.Doe@example.com </li>
+            <li>telnet://192.0.2.16:80/ </li>
+            <li>https://fis.epn.edu.ec/index.php?option=com_content&view=article&id=137&Itemid=294 </li>
+          </ul>
           <h4>Consejos para crear buenas URIs</h4>
+          <p>La estabilidad de la URI depende del usuario (La empresa o dueño del dominio deja el negocio o no tienen solvencia para dar mantenimiento)</p>
           <h4>Material de consulta</h4>
-          <h2>El protocolo HTTP</h2>
-          <h4>Contexto</h4>
-          <h4>Características</h4>
-          <h4>¿Cómo sucede la comunicación a través de HTTP?</h4>
-          <h2>Mensajes HTTP</h2>
-          <h4>Solicitud HTPP</h4>
-          <h4>Respuesta HTTP</h4>
-          <h2>Cabeceras</h2>
-          <h4>¿Qué es una Cabecera HTTP?</h4>
-          <h4>Cabeceras de Petición</h4>
-          <h4>Cabeceras de Respuesta</h4>
-          <h2>Metodos HTPP</h2>
-          <h4>Los métodos HTTP</h4>
-          <h4>Método GET</h4>
-          <h4>Método POST</h4>
-          <h4>Indicar el tipo de contenido es importante...</h4>
+          
         </article>
       </section>
-      <section class="main-section" id="Semana_3">
-        <header>Semana3: HTML Y HTML5</header>
-        <article></article>
+      <section class="main-section" id="protocolo_http">
+        <header>El protocolo HTTP
+          <em>(HyperText Transfer Control)</em>
+        </header>
+        <article>
+          <p>Como se vió, la arquitectura web se compone de los elementos: 
+            <strong>Cliente</strong>, <strong>Servidor</strong> y <strong>Protocolo HTTP</strong>.</p>
+            
+          </p>
+          <figure>
+            <img src="Imagenes/HttpArquitecturaWeb.avif" alt="HTTP" width="128%" />
+            <figcaption>Componente HTTP dentro de la Arquitectura Web.</figcaption>
+          </figure>
+          <p>En la web se establece un diálogo entre el <strong>Cliente - Servidor</strong> con el hin de consumir <em>recursos (hipertexto)</em>.</p>
+          <p>El cliente solicita recursos y el Servidor responde con los recursos solicitados. Así, el cliente y el servidor deben hablar el mismo idioma -> <strong>Protocolo HTTP</strong> que consta de un conjunto de normas, reglas y formatos.</p>
+          <h4>Características claves de HTTP</h4>
+          <ul>
+            <li>HTTP es un protocolo sin estado -> No existe el concepto de sesión, el servidor se olvida completamente del cliente al finalizar la conexión y lo tratará como un cliente nuevo</li>
+            <li>HTTP es un protocolo sin estado (stateless).</li>
+            <li>HTTP es un protocolo orientado a la conexión.</li>
+            <li>HTTP es un protocolo de transferencia de hipertexto.</li>
+          </ul>
+          
+          <strong>Cliente -> Servidor</strong> SOLICITUD HTTP - HTTP REQUEST <br>
+          <strong>Servidor -> Cliente</strong> RESPUESTA HTTP - HTTP RESPONSE <br>  
+        </article>
       </section>
       <section class="main-section" id="Variables">
         <header>Variables</header>

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Modelado de BD</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li>
+          <a class="nav-link" href="#if...else_statement"
+            >Modelo Entidad-Relación</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#while_statement"
+            >Modelo Relacional.</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#JavaScript_and_Java"
+            >JavaScript and Java</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
+        <li><a class="nav-link" href="#Variables">Variables</a></li>
+        <li>
+          <a class="nav-link" href="#Declaring_variables"
+            >Declaring variables</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Variable_scope">Variable scope</a></li>
+        <li>
+          <a class="nav-link" href="#Global_variables">Global variables</a>
+        </li>
+        <li><a class="nav-link" href="#Constants">Constants</a></li>
+        <li><a class="nav-link" href="#Data_types">Data types</a></li>
+        <li>
+          <a class="nav-link" href="#if...else_statement"
+            >Evolución y conceptos</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#while_statement"
+            >Database Design Using the E-R Mode</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Function_declarations"
+            >Intro to Relational Model</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Reference"
+            >Transformación al Modelo Relacional</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introducción</header>
+        <article>
+          <h2>¿Qué es una BD?</h2>
+          <p>
+            Es una <strong>colección de datos estructurados</strong>,
+            pertenecientes a una organización. Almacenada en algún medio y usada
+            para obtener información
+          </p>
+
+          <p>
+            Si, el papel puede ser utilizado como Base de datos o un programa.
+            Ejemplos:
+          </p>
+          <ul>
+            <li>Guía telefónica.</li>
+            <li>Los datos del Seguro Social.</li>
+            <li>Los datos académicos de una Universidad.</li>
+          </ul>
+
+          <h2>Sistemas de información: <em>Sistemas de archivos</em></h2>
+          <h3>Problemas de los sistemas de archivos</h3>
+          <ul>
+            <li>
+              <strong>Redundancia e Inconsistencia de datos:</strong>
+              Se repiten los mismos datos en diferentes archivos.
+            </li>
+            <li>
+              <strong>Dificultad en el acceso de datos </strong>
+              Necesitamos un programa diferente para cada archivo.
+            </li>
+          </ul>
+
+          <h2>Sistemas de información: <em>Modelo Relacional</em></h2>
+          <p>
+            El modelo relacional usa varias <strong>tablas</strong> para
+            organizar los datos.
+          </p>
+          <table border="1">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Correo Electrónico</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Juan Pérez</td>
+                <td>20</td>
+                <td>juan.perez@example.com</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>María López</td>
+                <td>22</td>
+                <td>maria.lopez@example.com</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Carlos García</td>
+                <td>21</td>
+                <td>carlos.garcia@example.com</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>La tabla se estructura por <strong>columnas y filas.</strong></p>
+
+          <h2>DBMSs</h2>
+          <p>Sistemas de Gestión de BD</p>
+          <p>
+            Conjunto de programas para acceder a los datos.<br />
+            Ejemplos: MySQL, PostgreSQL, Oracle, SQL Server, MongoDB
+          </p>
+
+          <h2>Modelos de Datos</h2>
+          <p><strong>Herramientas</strong> para describir:</p>
+          <ul>
+            <li>Datos</li>
+            <li>Relaciones entre los datos</li>
+            <li>Semántica de datos</li>
+            <li>Reestricciones de datos</li>
+          </ul>
+          <ol>
+            <p>Ejemplos:</p>
+
+            <li>Modelo relacional</li>
+            <li>Modelo Entidad-Relación (Diseño de BD)</li>
+            <li>Modelo de datos semiestructurados (XML)</li>
+            <li>Modelo orientado a objetos</li>
+            <li>Modelo de red</li>
+            <li>Modelo Jerarquico</li>
+          </ol>
+          <h2>Sistema de Bases de Datos (DBS)</h2>
+          <figure>
+            <img
+              src="images/dbs.avif"
+              alt="Sistema de Bases de Datos"
+              width="80%"
+            />
+            <figcaption>Un DBS está compuesto por:</figcaption>
+            <ul>
+              <li>Base de datos</li>
+              <li>DBMS</li>
+              <li>DBA</li>
+              <li>Usuarios</li>
+              <li>Software de aplicación</li>
+              <li>Software de</li>
+              <li>Hardware de procesamiento</li>
+              <li>Hardware de conectividad</li>
+            </ul>
+          </figure>
+        </article>
+      </section>
+      <section class="main-section" id="What_you_should_already_know">
+        <header></header>
+        <article>
+
+        </article>
+      </section>
+      <section class="main-section" id="JavaScript_and_Java">
+        <header>JavaScript and Java</header>
+        <article></article>
+      </section>
+      <section class="main-section" id="Hello_world">
+        <header>Hello world</header>
+        <article></article>
+      </section>
+      <section class="main-section" id="Variables">
+        <header>Variables</header>
+      </section>
+      <section class="main-section" id="Declaring_variables">
+        <header>Declaring variables</header>
+        <article></article>
+      </section>
+      <section class="main-section" id="Variable_scope">
+        <header>Variable scope</header>
+        <article></article>
+      </section>
+      <section class="main-section" id="Global_variables">
+        <header>Global variables</header>
+        <article></article>
+      </section>
+      <section class="main-section" id="Constants">
+        <header>Constants</header>
+        <article></article>
+      </section>
+      <section class="main-section" id="Data_types">
+        <header>Data types</header>
+        <article></article>
+      </section>
+      <section class="main-section" id="if...else_statement">
+        <header>Modelo E-R</header>
+        <article>
+          <p>
+            Es un tipo de <em>enfoque de diseño</em> de BDs. Modela una
+            empresa como una colección de <em>entidades y relaciones.</em> Se
+            representa mediante un <strong>diagrama entidad-relación</strong>. Y
+            emplea 3 conceptos básicos: <strong>Entidades, relaciones y atributos.</strong>
+          </p>
+          <p>Una <strong><em>relación</em></strong> es una asociación entre varias entidades. Tambíen puede representarse como una tabla (relaciones con atributos).</p>
+          <h3>Grado de una relación</h3>
+            <p>El número de entidades que participan en una relación.</p>
+            <p>Normalmente son del tipo <strong>binaria (o grado 2).</strong>
+             Una relación <strong>Ternaria</strong> podria ser: <br> <em>Estudiantes</em> trabajan</em> en un <em>proyecto</em> de investigación, bajo la supervisión de un <em>profesor</em>.</p>
+            </p>
+          <h3>Reestriciones de cardinalidad</h3>
+            <p>Especifica el número mínimo y máximo de entidades que pueden participar en una relación.</p>
+            <p>Para las relaciones binarias, la cardinalidad debe ser del tipo: </p>
+            <ul>
+                <li>Uno a uno (1:1)</li>
+                <li>Uno a muchos (1:N)</li>
+                <li>Muchos a uno (N:1)</li>
+                <li>Muchos a muchos (N:M)</li>
+            </ul>
+            <h3>Atributos redundantes</h3>
+            <p>Cuando 2 entidades tienen un mismo atributo se está presentando la redundancia y para resolver esto utilizamos una <strong>relación</strong></p>
+
+            <h3>Fases del diseño</h3>
+          <p>
+            En una “especificación de requiremientos funcionales ”, los usuarios
+            describen los tipos de operaciones (o transacciones) que se realizan
+            sobre los datos
+          </p>
+          <p>
+            El proceso de pasar un modelo de datos a la implementación de la BD
+            tiene lugar en 2 fases finales del diseño:
+          </p>
+          <ul>
+            <li>
+              <strong>Diseño lógico</strong>: Decidir el esquema de la base de
+              datos , ¿Cuáles atributos guardar en la base de datos?
+            </li>
+            <li>
+              <strong>Diseño físico</strong>: – Decidir sobre las
+              características y la organización físicas de la base de datos.
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="while_statement">
+        <header>Modelo relacional</header>
+        <article></article>
+      </section>
+      <section class="main-section" id="Function_declarations">
+        <header>Function declarations</header>
+        <article></article>
+      </section>
+      <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <article>
+          <ul>
+            <li>
+              All the documentation in this page is taken from
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+                target="_blank"
+                >MDN</a
+              >
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

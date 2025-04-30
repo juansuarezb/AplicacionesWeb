@@ -7,23 +7,23 @@
     <nav id="navbar">
       <header>Aplicaciones Web</header>
       <ul>
-        <li><a class="nav-link" href="#Introduction">Semana 1: Orígenes de la Web</a></li>
+        <li><a class="nav-link" href="#Introduction">Semana 1</a></li>
         <li>
           <a class="nav-link" href="#semana_2"
-            >Semana 2: El protocolo HTTP</a
+            >Semana 2</a
           >
         </li>
         <li>
-          <a class="nav-link" href="#"
-            >Semana 3: HTL Y HTML5</a
+          <a class="nav-link" href="#semana_3"
+            >Semana 3</a
           >
         </li>
         <li>
           <a class="nav-link" href="#JavaScript_and_Java"
-            >JavaScript and Java</a
+            >Semana 4</a
           >
         </li>
-        <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
+        <li><a class="nav-link" href="#Hello_world">Semana 5</a></li>
         <li><a class="nav-link" href="#Variables">Variables</a></li>
         <li>
           <a class="nav-link" href="#Declaring_variables"
@@ -60,7 +60,49 @@
     </nav>
     <main id="main-doc">
       <section class="main-section" id="Introduction">
-        <header>Introducción - Semana 1: Orígenes de la web</header>
+        <header>
+          <h1>Semana 1 Clase#1</h1>
+          <h2>15/04/2025</h2>
+        </header> 
+        
+        <table border="1">      
+          <tbody>
+            <tr>
+              <td><strong>Instructor:</strong></td>
+              <td>PhD. Carlos E. Iñiguez J.</td>
+            </tr>
+            <tr>
+              <td>Código:</td>
+              <td>ISWD543</td>
+              
+            </tr>
+            <tr>
+              <td>Grupo:</td>
+              <td>GR2SW</td>
+              
+            </tr>
+            <tr>
+              <td>Contacto:</td>
+              <td>carlos.iniguez@epn.edu.ec</td>
+          </tbody>
+        </table>   
+
+
+        <section>
+          <p><a href="https://ciniguez.github.io/balava/appweb/index.html">Material de Estudio</a> para cada semana.</p>
+        
+          <h4>Proceso Unificado de Desarrollo (PUD)</h4>
+          <p>El PUD es un proceso de desarrollo de software llamado <em>método general (Metodologia pesada o tradicional)</em> y fue uno de los primeros estandares de desarrollo de software.
+          <p>Consta de 4 fases:</p>
+          <ol>
+            <li>Inception</li>
+            <li>Elaboration</li>
+            <li>Construction</li>
+            <li>Transition</li>
+          </ol>
+
+          <h2>Semana 1: Orígenes de la web</h2>
+        
         <article>
           <div align="center">
             <figure>
@@ -225,8 +267,25 @@
         
         </article>
       </section>
-      <section class="main-section" id="Variables">
-        <header>Variables</header>
+      <section class="main-section" id="semana_3">
+        <header>
+          <h1>Semana 3 Clase#2</h1>
+          <h3>29/04/2025</h3>
+        </header>
+        <p>El servidor Web es un programa, esta aplicación abre un puerto para escuchar constantemente en la espera de REQUEST (puerto 80 por defecto). </p>
+        <figure>
+          <img src="Imagenes/imagen1.avif" alt="Servidor Apache" width="300px"/>
+          <figcaption>Este es el servidor web apache (programa).</figcaption>
+        </figure>
+        
+        <p>Tipos de aplicaciones Web</p>
+        <ul>
+          <li><strong>Aplicaciones Web estaticas: </strong><br> Fueron las primeras en aparecer, el fichero index.html se guarda en el servidor. Y el browser hacer una solicitud para ese recurso (fichero) y envia con un mensaje HTPP response en el cuerpo el recurso.
+            -Necesito un servidor web (Apache-ApacheTomcat-IIS (Internet Information Service) - Glassfish, Express).</li>
+          <li><strong>Aplicaciones Web dinámicas: </strong></li>
+          <li><strong>Aplicaciones Web híbridas: </strong></li>
+        </ul>
+
       </section>
       <section class="main-section" id="Declaring_variables">
         <header>Declaring variables</header>

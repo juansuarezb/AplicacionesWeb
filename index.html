@@ -2,6 +2,13 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles.css" />
+    <!-- Prism.js CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet"/>
+
+<!-- Prism.js JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-php.min.js"></script>
+  
   </head>
   <body>
     <nav id="navbar">
@@ -285,6 +292,55 @@
           <li><strong>Aplicaciones Web dinámicas: </strong></li>
           <li><strong>Aplicaciones Web híbridas: </strong></li>
         </ul>
+
+
+        <h4><strong>Practica 1: PHP</strong></h4>
+        <p>Vamos a utilizar <strong>XAMPP</strong> como servidor web de nuestra página web. </p>
+        <p><em>XAMPP</em> es un paquete de aplicaciones que te ayudan a crear un servidor local para desplegar aplicaciones web.</p>
+        <p>En esta práctica exploramos el uso de PHP y los servidores web. A continuación, aprenderemos sobre su funcionamiento. </p>
+        <pre><code class="language-php">
+          &lt;?php
+          #Esto es un comentario
+          #Aqui se imprime directamente en pantalla. (no hay impresion a la consola)
+          echo "Hola mundo desde PHP";
+          # Esto es un salto de linea en php
+          print "Impresión con print";
+          echo "&lt;br&gt;";
+          
+          # PHP no tiene tipado de datos
+          # ========= VARIABLES ======== 
+          $pais = "Ecuador";
+          $numero = 2025;
+
+          echo "<br>";
+          #Concatenacion pura
+          echo "$pais es rico y diverso, El $pais del $numero";
+          echo "<br>";
+          echo $pais . " es rico y diverso. El " . $pais . " del numero " . $numero;
+          
+          #Cortar el proceso de rendirazado
+          die();
+
+
+          # ====== ARRAYS =======
+          #Declaracion de array
+          $estadoCivil = array("soltero", "casado", "doctor en informatica");
+          echo "<br>";
+          #Imprimir contenido de un array
+          print_r($estadoCivil);
+          echo "<br>";
+          var_dump($estadoCivil);
+          #Imprimir un elemento del array me ayudo de los indices
+          echo "<br>";
+          echo $estadoCivil[1];
+          #Un array incicando las claves de los elementos.
+          $misEstados = array("val1" => "soltero", "val2" => "casado");
+          echo "<br>";
+          print_r($misEstados);
+
+
+          ?>
+          </code></pre>
 
       </section>
       <section class="main-section" id="Declaring_variables">

@@ -1,388 +1,155 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="styles.css" />
-    <!-- Prism.js CSS -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet"/>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apuntes Aplicaciones Web</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/line-numbers/prism-line-numbers.min.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-php.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+</head>
+<body>
+  <nav id="navbar">
+    <header>Aplicaciones Web</header>
+    <ul>
+      <li><a class="nav-link" href="#Introduction">Semana 1</a></li>
+      <li><a class="nav-link" href="#semana_2">Semana 2</a></li>
+      <li><a class="nav-link" href="#semana_3">Semana 3</a></li>
+      <li><a class="nav-link" href="#JavaScript_and_Java">Semana 4</a></li>
+      <li><a class="nav-link" href="#Hello_world">Semana 5</a></li>
+      <li><a class="nav-link" href="#Variables">Variables</a></li>
+      <li><a class="nav-link" href="#Declaring_variables">Declaring variables</a></li>
+      <li><a class="nav-link" href="#Variable_scope">Variable scope</a></li>
+      <li><a class="nav-link" href="#Global_variables">Global variables</a></li>
+      <li><a class="nav-link" href="#Constants">Constants</a></li>
+      <li><a class="nav-link" href="#Data_types">Data types</a></li>
+      <li><a class="nav-link" href="#if...else_statement">Evolución y conceptos</a></li>
+      <li><a class="nav-link" href="#curso_php">Curso PHP Desde Cero: Primeros Pasos</a></li>
+      <li><a class="nav-link" href="#Function_declarations">Intro to Relational Model</a></li>
+      <li><a class="nav-link" href="#Reference">Transformación al Modelo Relacional</a></li>
+    </ul>
+  </nav>
 
-<!-- Prism.js JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-php.min.js"></script>
-  
-  </head>
-  <body>
-    <nav id="navbar">
-      <header>Aplicaciones Web</header>
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>
+        <h1>Semana 1 Clase#1</h1>
+        <h2>15/04/2025</h2>
+      </header>
+      <table border="1">
+        <tbody>
+          <tr><td><strong>Instructor:</strong></td><td>PhD. Carlos E. Iñiguez J.</td></tr>
+          <tr><td>Código:</td><td>ISWD543</td></tr>
+          <tr><td>Grupo:</td><td>GR2SW</td></tr>
+          <tr><td>Contacto:</td><td>carlos.iniguez@epn.edu.ec</td></tr>
+        </tbody>
+      </table>
+
+      <p><a href="https://ciniguez.github.io/balava/appweb/index.html">Material de Estudio</a> para cada semana.</p>
+      <h4>Proceso Unificado de Desarrollo (PUD)</h4>
+      <p>El PUD es un proceso de desarrollo de software llamado <em>método general (Metodología pesada o tradicional)</em>.</p>
+      <p>Consta de 4 fases:</p>
+      <ol>
+        <li>Inception</li>
+        <li>Elaboration</li>
+        <li>Construction</li>
+        <li>Transition</li>
+      </ol>
+      <h2>Semana 1: Orígenes de la web</h2>
+      <figure align="center">
+        <img src="Imagenes/MapaHTTP.avif" alt="MapaHTTP" width="100%" />
+        <figcaption>Mapa HTTP</figcaption>
+      </figure>
+    </section>
+
+    <section class="main-section" id="semana_2">
+      <header><h1>Semana 2: El protocolo HTTP</h1></header>
+      <h3>Objetivos:</h3>
+      <ol>
+        <li>Identificar los actores de la arquitectura web</li>
+        <li>Discutir cada componente de la comunicación HTTP</li>
+        <li>Identificar las partes de una URL</li>
+        <li>Proponer URLs adecuadas</li>
+      </ol>
+      <h4>La URI (Identificador de recursos uniforme)</h4>
+      <p>La URI es una cadena de caracteres para Identificar un recurso en una red.</p>
       <ul>
-        <li><a class="nav-link" href="#Introduction">Semana 1</a></li>
-        <li>
-          <a class="nav-link" href="#semana_2"
-            >Semana 2</a
-          >
-        </li>
-        <li>
-          <a class="nav-link" href="#semana_3"
-            >Semana 3</a
-          >
-        </li>
-        <li>
-          <a class="nav-link" href="#JavaScript_and_Java"
-            >Semana 4</a
-          >
-        </li>
-        <li><a class="nav-link" href="#Hello_world">Semana 5</a></li>
-        <li><a class="nav-link" href="#Variables">Variables</a></li>
-        <li>
-          <a class="nav-link" href="#Declaring_variables"
-            >Declaring variables</a
-          >
-        </li>
-        <li><a class="nav-link" href="#Variable_scope">Variable scope</a></li>
-        <li>
-          <a class="nav-link" href="#Global_variables">Global variables</a>
-        </li>
-        <li><a class="nav-link" href="#Constants">Constants</a></li>
-        <li><a class="nav-link" href="#Data_types">Data types</a></li>
-        <li>
-          <a class="nav-link" href="#if...else_statement"
-            >Evolución y conceptos</a
-          >
-        </li>
-        <li>
-          <a class="nav-link" href="#while_statement"
-            >Database Design Using the E-R Mode</a
-          >
-        </li>
-        <li>
-          <a class="nav-link" href="#Function_declarations"
-            >Intro to Relational Model</a
-          >
-        </li>
-        <li>
-          <a class="nav-link" href="#Reference"
-            >Transformación al Modelo Relacional</a
-          >
-        </li>
+        <li>Puede ser una URL, URN o ambos</li>
+        <li>Definida en RFC 3986</li>
+        <li>Usada para hiperenlaces en la WWW</li>
+        <li>Sistema para nombrar y localizar recursos en la Web</li>
       </ul>
-    </nav>
-    <main id="main-doc">
-      <section class="main-section" id="Introduction">
-        <header>
-          <h1>Semana 1 Clase#1</h1>
-          <h2>15/04/2025</h2>
-        </header> 
-        
-        <table border="1">      
-          <tbody>
-            <tr>
-              <td><strong>Instructor:</strong></td>
-              <td>PhD. Carlos E. Iñiguez J.</td>
-            </tr>
-            <tr>
-              <td>Código:</td>
-              <td>ISWD543</td>
-              
-            </tr>
-            <tr>
-              <td>Grupo:</td>
-              <td>GR2SW</td>
-              
-            </tr>
-            <tr>
-              <td>Contacto:</td>
-              <td>carlos.iniguez@epn.edu.ec</td>
-          </tbody>
-        </table>   
+      <h4>Clases de URI</h4>
+      <ul>
+        <li><strong>URL</strong>: Localiza el recurso.</li>
+        <li><strong>URN</strong>: Nombra el recurso.</li>
+      </ul>
+      <figure>
+        <img src="Imagenes/partes.avif" alt="partes" width="100%" />
+        <figcaption>Partes de una URI</figcaption>
+      </figure>
+      <h4>Descripción de las partes</h4>
+      <table border="1">
+        <thead><tr><th>Parte</th><th>Descripción</th></tr></thead>
+        <tbody>
+          <tr><td>Esquema</td><td>Protocolo de acceso al recurso</td></tr>
+          <tr><td>Parte Jerárquica</td><td>Ruta al recurso (autoridad y path)</td></tr>
+          <tr><td>Cadena de consulta</td><td>Parámetros de búsqueda (query)</td></tr>
+          <tr><td>Fragmento</td><td>Sección específica del documento</td></tr>
+        </tbody>
+      </table>
+      <h4>Ejemplos de URIs</h4>
+      <ul>
+        <li>ftp://ftp.is.co.za/rfc/rfc1808.txt</li>
+        <li>http://www.ietf.org/rfc/rfc2396.txt</li>
+        <li>mailto:John.Doe@example.com</li>
+        <li>https://fis.epn.edu.ec/index.php?option=com_content&view=article&id=137&Itemid=294</li>
+      </ul>
+    </section>
 
-
-        <section>
-          <p><a href="https://ciniguez.github.io/balava/appweb/index.html">Material de Estudio</a> para cada semana.</p>
-        
-          <h4>Proceso Unificado de Desarrollo (PUD)</h4>
-          <p>El PUD es un proceso de desarrollo de software llamado <em>método general (Metodologia pesada o tradicional)</em> y fue uno de los primeros estandares de desarrollo de software.
-          <p>Consta de 4 fases:</p>
-          <ol>
-            <li>Inception</li>
-            <li>Elaboration</li>
-            <li>Construction</li>
-            <li>Transition</li>
-          </ol>
-
-          <h2>Semana 1: Orígenes de la web</h2>
-        
-        <article>
-          <div align="center">
-            <figure>
-              <img src="Imagenes/MapaHTTP.avif" alt="MapaHTTP" width="128%" />
-              <figcaption>Mapa HTTP</figcaption>
-            </figure>
-          </div>
-         
-          
-        </article>
-      </section>
-      <section class="main-section" id="">
-        <header></header>
-        <article>
-
-        </article>
-      </section>
-      <section class="main-section" id="semana_2">
-        <header>Semana 2: El protocolo HTTP</header>
-        <h2>Objetivos: </h2>
-          <ol>
-            <li>Identificar los actores de la arquitectura web</li>
-            <li>Discutir cada componente de la comunicacion HTTP</li>
-            <li>Identificar las partes de una URL</li>
-            <li>Proponer URLS adecuadas</li>
-          </ol>        
-        <header>La URI (Identificador de recursos uniforme)</header>
-        <article>                    
-          <p>La URI es una cadena de caracteres para Identificar a un recurso en una red.</p>
-          <h4>Datos Importantes de la URI</h4>
-          <ul>
-            <li>La URI puede ser una URL, URN o ambos</li>
-            <li>La sintaxis de la URI está descrita en RFC 3986</li>
-            <li>Se utiliza para establecer hiperenlaces en la WWW</li>
-            <li>La URI es un sistema diseñado para nombrar y localizar los recursos en la Web.</li>
-          </ul>
-          <h4>Sintaxis de la URI</h4>
-          <p>Existen 2 clases de URI:</p>
-          <ul>
-            <li><strong>URL</strong> (Uniform Resource Locator): Proporciona la localización del recurso.</li>
-            <li><strong>URN </strong>(Uniform Resource Name): Proporciona el nombre del recurso.</li>
-          </ul>
-          <h4>Reconociendo las partes...</h4>
-          <figure>
-            <img src="Imagenes/partes.avif" alt="partes" width="128%" />
-            <figcaption>Partes de una URI</figcaption>
-          </figure>          
-          <h4>Describiendo las partes</h4>
-          <table border="1">
-            <thead>
-              <tr>
-                <th>Parte</th>
-                <th>Descripción</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Esquema</td>
-                <td>Indica el protocolo utilizado para acceder al recurso.</td>
-              </tr>
-              <tr>
-                <td>Parte Jerarquica</td>
-                <td>Identifica el camino a seguir para acceder al recurso
-                  <ul>
-                    <li>Autoridad</li>
-                    <li>Path (ruta)</li>
-                  </ul>
-                </td>
-                
-              </tr>
-              <tr>
-                <td>Cadena de consulta</td>
-                <td>Identifica los parámetros para localizar el recurso en el servidor (Query).</td>
-                
-              </tr>
-              <tr>
-                <td>Fragmento</td>
-                <td>Identifica una parte o sección dentro del documento.</td>
-            </tbody>
-          </table> 
-
-          <h4>Ejemplos de URIs</h4>
-          <ul>
-            <li>ftp://ftp.is.co.za/rfc/rfc1808.txt</li>
-            <li> http://www.ietf.org/rfc/rfc2396.txt</li>
-            <li>ldap://[2001:db8::7]/c=GB?objectClass?one </li>
-            <li>mailto:John.Doe@example.com </li>
-            <li>telnet://192.0.2.16:80/ </li>
-            <li>https://fis.epn.edu.ec/index.php?option=com_content&view=article&id=137&Itemid=294 </li>
-          </ul>
-          <h4>Consejos para crear buenas URIs</h4>
-          <p>La estabilidad de la URI depende del usuario (La empresa o dueño del dominio deja el negocio o no tienen solvencia para dar mantenimiento)</p>
-          <h4>Material de consulta</h4>
-          
-        </article>
-      </section>
-      <section class="main-section" id="protocolo_http">
-        <header>El protocolo HTTP
-          <em>(HyperText Transfer Control)</em>
-        </header>
-        <article>
-          <p>Como se vió, la arquitectura web se compone de los elementos: 
-            <strong>Cliente</strong>, <strong>Servidor</strong> y <strong>Protocolo HTTP</strong>.</p>
-            
-          </p>
-          <figure>
-            <img src="Imagenes/HttpArquitecturaWeb.avif" alt="HTTP" width="128%" />
-            <figcaption>Componente HTTP dentro de la Arquitectura Web.</figcaption>
-          </figure>
-          <p>En la web se establece un diálogo entre el <strong>Cliente - Servidor</strong> con el hin de consumir <em>recursos (hipertexto)</em>.</p>
-          <p>El cliente solicita recursos y el Servidor responde con los recursos solicitados. Así, el cliente y el servidor deben hablar el mismo idioma -> <strong>Protocolo HTTP</strong> que consta de un conjunto de normas, reglas y formatos.</p>
-          <h4>Características claves de HTTP</h4>
-          <ul>
-            <li>HTTP es un protocolo sin estado -> No existe el concepto de sesión, el servidor se olvida completamente del cliente al finalizar la conexión y lo tratará como un cliente nuevo</li>
-            <li>HTTP es un protocolo sin estado (stateless).</li>
-            <li>HTTP es un protocolo orientado a la conexión.</li>
-            <li>HTTP es un protocolo de transferencia de hipertexto.</li>
-          </ul>
-          
-          <strong>Cliente -> Servidor</strong> SOLICITUD HTTP - HTTP REQUEST <br>
-          <strong>Servidor -> Cliente</strong> RESPUESTA HTTP - HTTP RESPONSE <br>  
-        
-          <section>
-            <h2>Practica HTTP</h2>
-            <ul>
-              <li>Tecnologias del lado del servidor (lenguajes y servidores)</li>
-              <li>Instalar XAMP</li>
-              <li>Sentencias básicas de PHP</li>
-            </ul>
-          </section>
-          <section>
-            <div class="note">
-              PHP (HyperText Preprocesor) creado por Rasmus Lerdord 1995.
-              <p>PHP es un lenguaje de programación de propósito general (Sirve para conexion a BD, servicios Web, funciones, etc). Es del lado del servidor</p> 
-              <p>PHP es un lenguaje interpretado es decir se interpreta linea a linea por el servidor web.</p>
-              <p>PHP posee tipado dinámico, el tipo de dato se comprueba durante la ejecución de la app.</p>
-              <p>PHP es diseñado para aplicaciones web dinámicas</p>
-              <p>PHP se incrusta en documentos HTML.</p>
-            </div>
-
-            <div class="note">
-              <p><a href="https://www.youtube.com/watch?v=dUzQfxQQp7I&list=PL_wRgp7nihyYXMZ5bBP6v0Q31fRRJLiud&index=5">Configuración</a> del intereprete de php en netbeans</p>
-            </div>
-            <pre><code>
-              &lt;!DOCTYPE html&gt;
-              &lt;html lang="es"&gt;
-                &lt;head&gt;
-                  &lt;meta charset="UTF-8"&gt;
-                  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-                  &lt;title&gt;Hola Mundo&lt;/title&gt;
-                &lt;/head&gt;
-                &lt;body&gt;
-                  &lt;main&gt;
-                    &lt;h1&gt;Hola mundo&lt;/h1&gt;
-                    &lt;p&gt;Este es un párrafo&lt;/p&gt;
-                  &lt;/main&gt;
-                &lt;/body&gt;
-              &lt;/html&gt;
-              </code></pre>
-              <p>Para desplegar la página web existen 2 formas: </p>
-          </section>
-        
-        </article>
-      </section>
-      <section class="main-section" id="semana_3">
-        <header>
-          <h1>Semana 3 Clase#2</h1>
-          <h3>29/04/2025</h3>
-        </header>
-        <p>El servidor Web es un programa, esta aplicación abre un puerto para escuchar constantemente en la espera de REQUEST (puerto 80 por defecto). </p>
+    <section class="main-section" id="semana_3">
+      <header>
+        <h1>Semana 3 Clase#2</h1>
+        <h3>29/04/2025</h3>
+      </header>
+      <article>
+        <p>El servidor web es un programa que escucha solicitudes HTTP en un puerto (por defecto el 80).</p>
         <figure>
           <img src="Imagenes/imagen1.avif" alt="Servidor Apache" width="300px"/>
-          <figcaption>Este es el servidor web apache (programa).</figcaption>
+          <figcaption>Servidor web Apache</figcaption>
         </figure>
-        
-        <p>Tipos de aplicaciones Web</p>
+        <h4>Tipos de aplicaciones Web</h4>
         <ul>
-          <li><strong>Aplicaciones Web estaticas: </strong><br> Fueron las primeras en aparecer, el fichero index.html se guarda en el servidor. Y el browser hacer una solicitud para ese recurso (fichero) y envia con un mensaje HTPP response en el cuerpo el recurso.
-            -Necesito un servidor web (Apache-ApacheTomcat-IIS (Internet Information Service) - Glassfish, Express).</li>
-          <li><strong>Aplicaciones Web dinámicas: </strong></li>
-          <li><strong>Aplicaciones Web híbridas: </strong></li>
+          <li><strong>Estáticas:</strong> HTML guardado en el servidor, respuesta simple.</li>
+          <li><strong>Dinámicas:</strong> Generadas por el servidor.</li>
+          <li><strong>Híbridas:</strong> Combinación de ambas.</li>
         </ul>
+        <h4>Práctica 1: PHP con XAMPP</h4>
+        <p>XAMPP permite configurar un servidor local para desplegar tu aplicación web.</p>
+        <pre class="line-numbers"><code class="language-php">
+&lt;?php
+# Comentario en PHP
+echo "Hola mundo desde PHP";
+print "Impresión con print";
+echo "&lt;br&gt;";
 
+$pais = "Ecuador";
+$numero = 2025;
 
-        <h4><strong>Practica 1: PHP</strong></h4>
-        <p>Vamos a utilizar <strong>XAMPP</strong> como servidor web de nuestra página web. </p>
-        <p><em>XAMPP</em> es un paquete de aplicaciones que te ayudan a crear un servidor local para desplegar aplicaciones web.</p>
-        <p>En esta práctica exploramos el uso de PHP y los servidores web. A continuación, aprenderemos sobre su funcionamiento. </p>
-        <pre><code class="language-php">
-          &lt;?php
-          #Esto es un comentario
-          #Aqui se imprime directamente en pantalla. (no hay impresion a la consola)
-          echo "Hola mundo desde PHP";
-          # Esto es un salto de linea en php
-          print "Impresión con print";
-          echo "&lt;br&gt;";
-          
-          # PHP no tiene tipado de datos
-          # ========= VARIABLES ======== 
-          $pais = "Ecuador";
-          $numero = 2025;
+echo "$pais es rico en cultura y biodiversidad";
+?&gt;
+        </code></pre>
+      </article>
+    </section>
+    <section class="main-section" id="curso_php">
+      <header><h1>Curso PHP Desde Cero: Primeros Pasos</h1></header>
+      <article>
+      </article>
 
-          echo "<br>";
-          #Concatenacion pura
-          echo "$pais es rico y diverso, El $pais del $numero";
-          echo "<br>";
-          echo $pais . " es rico y diverso. El " . $pais . " del numero " . $numero;
-          
-          #Cortar el proceso de rendirazado
-          die();
-
-
-          # ====== ARRAYS =======
-          #Declaracion de array
-          $estadoCivil = array("soltero", "casado", "doctor en informatica");
-          echo "<br>";
-          #Imprimir contenido de un array
-          print_r($estadoCivil);
-          echo "<br>";
-          var_dump($estadoCivil);
-          #Imprimir un elemento del array me ayudo de los indices
-          echo "<br>";
-          echo $estadoCivil[1];
-          #Un array incicando las claves de los elementos.
-          $misEstados = array("val1" => "soltero", "val2" => "casado");
-          echo "<br>";
-          print_r($misEstados);
-
-
-          ?>
-          </code></pre>
-
-      </section>
-      <section class="main-section" id="Declaring_variables">
-        <header>Declaring variables</header>
-        <article></article>
-      </section>
-      <section class="main-section" id="Variable_scope">
-        <header>Variable scope</header>
-        <article></article>
-      </section>
-      <section class="main-section" id="Global_variables">
-        <header>Global variables</header>
-        <article></article>
-      </section>
-      <section class="main-section" id="Constants">
-        <header>Constants</header>
-        <article></article>
-      </section>
-      <section class="main-section" id="Data_types">
-        <header>Data types</header>
-        <article></article>
-      </section>
-      <section class="main-section" id="if...else_statement">
-        <header>Modelo E-R</header>
-        <article>
-          
-        </article>
-      </section>
-      <section class="main-section" id="while_statement">
-        <header>Modelo relacional</header>
-        <article></article>
-      </section>
-      <section class="main-section" id="Function_declarations">
-        <header>Function declarations</header>
-        <article></article>
-      </section>
-      <section class="main-section" id="Reference">
-        <header>Reference</header>
-        <article>
-
-        </article>
-      </section>
-    </main>
-  </body>
+    </section>
+  </main>
+</body>
 </html>

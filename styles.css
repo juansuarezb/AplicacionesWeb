@@ -7,6 +7,10 @@ body {
   line-height: 1.5;
 }
 
+h1{
+  background-color: #FFD700;
+}
+
 #navbar {
   position: fixed;
   min-width: 290px;
